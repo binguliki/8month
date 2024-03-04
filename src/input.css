@@ -1,3 +1,9 @@
+/* input.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This is the correct way to apply Tailwind CSS classes to <p> tags */
+p {
+  @apply bg-black border rounded-full py-2 px-6;
+}
